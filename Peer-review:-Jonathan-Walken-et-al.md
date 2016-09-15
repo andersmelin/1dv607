@@ -1,6 +1,6 @@
 # Peer Review – Domain model, Jonathan Walken et al
 
-We would like to start off stating that the domain model presented by this group analyzes the problem description as a whole, not only the requirements presented in the first iteration. That is, it includes requirements such as payment that was not included in the list of	**[requirements]**(https://coursepress.lnu.se/kurs/objektorienterad-analys-och-design-med-uml/workshops-2/peer-review/) for this first hand-in. As such, the scope of the domain model is broader than expected, which should be kept in mind when reading this peer review.
+We would like to start off stating that the domain model presented by this group analyzes the problem description as a whole, not only the requirements presented in the first iteration. That is, it includes requirements such as payment that was not included in the list of	[requirements](https://coursepress.lnu.se/kurs/objektorienterad-analys-och-design-med-uml/workshops-2/peer-review/) for this first hand-in. As such, the scope of the domain model is broader than expected, which should be kept in mind when reading this peer review.
 
 The first impression of the domain model is that it is very visually appealing, owing to the care taken to color it in and give it a uniform look and design. This may not be a formal requirement of domain models as such, but part of thinking like a mapmaker – as Larman states,  *"make a domain model in the spirit of how a cartographer or mapmaker works"* **[1, p239]** is making sure that people will want to read your map, and the design goes a long way towards that.
 
@@ -12,13 +12,13 @@ The biggest problem with the domain model, however, is the associations. While t
 Another problem with the associations is that there are too many of them, when the guideline is to “be parsimonious about adding association lines” **[1, p247]**. Association lines such as *Membership Overview-of Payment* and *Secretary Schedules-event-for YachtClub* are not “need-to-remember” **[1, p247]** associations, and their presence restricts the flow of the domain model and adds visual clutter.
 
 As for the conceptual classes identified, we believe that the group has included all the necessary, real-world conceptual classes for this iteration and given them adequate names. For example, the group has identified the need for a BoatInformation class in the domain model to solve the problems described by Larman in Chapter 9.13**[1, p234]**. However, again, there are conceptual classes identified that are not part of this iteration, so we cannot comment on those.
-One observation for the conceptual classes is that some attributes have a type associated with them, such as dateTime: Date in the CalenderEventclass. This is a feature of design models rather than domain models, so we believe it should not be included. 
+One observation for the conceptual classes is that some attributes have a type associated with them, such as dateTime: Date in the CalenderEventclass. This is a feature of design models rather than domain models, so we believe it should not be included.
 
 **As a developer would the model help you and why/why not?**  
 The model cointains all the necessary components to write a design model that fulfills the requirements so it would be helpful. The result would of course be a much bigger and complex model than actually needed, but it would indeed be helpful.
 
-**What are the strong points of the model, what do you think is really good and why?**
-Very good use of attributes.
+**What are the strong points of the model, what do you think is really good and why?**  
+Very good use of attributes. Well thought out conceptual classes.
 
 **Do you think a domain expert (for example the Secretary) would understand the model** We are sure that \*he would understand it. At firts it might seem confusing but given some time for analyzis \*he would understand it
 
