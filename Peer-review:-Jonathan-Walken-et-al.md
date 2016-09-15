@@ -11,12 +11,12 @@ The biggest problem with the domain model, however, is the associations. While t
 
 Another problem with the associations is that there are too many of them, when the guideline is to “be parsimonious about adding association lines” **[1, p247]**. Association lines such as *Membership Overview-of Payment* and *Secretary Schedules-event-for YachtClub* are not “need-to-remember” **[1, p247]** associations, and their presence restricts the flow of the domain model and adds visual clutter.
 
-As for the conceptual classes identified, we believe that the group has included all the necessary, real-world conceptual classes for this iteration and given them adequate names. For example, the group has identified the need for a BoatInformation class in the domain model to solve the problems described by Larman in Chapter 9.13**[1, p234]**. However, again, there are conceptual classes identified that are not part of this iteration, so we cannot comment on those.
+As for the conceptual classes identified, we believe that the group has included all the necessary, real-world conceptual classes for this iteration and given them adequate names. For example, the group has identified the need for a BoatInformation class in the domain model to solve the problems described by Larman in Chapter 9.13 **[1, p234]**. However, again, there are conceptual classes identified that are not part of this iteration, so we cannot comment on those.
 One observation for the conceptual classes is that some attributes have a type associated with them, such as dateTime: Date in the CalenderEventclass. This is a feature of design models rather than domain models, so we believe it should not be included.
 
 **As a developer would the model help you and why/why not?**
 
-The model cointains all the necessary components to write a design model that fulfills the requirements, so it would be helpful. The result would of course be a much bigger and complex model than actually needed, but it would indeed be helpful.
+The model contains all the necessary components to write a design model that fulfills the requirements, so it would be helpful. The result would of course be a much bigger and complex model than actually needed, but it would indeed be helpful.
 
 **What are the strong points of the model, what do you think is really good and why?**  
 
