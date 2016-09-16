@@ -18,22 +18,21 @@ As a developer would the model help you and why/why not?
 
 The model contains all the necessary components to write a design model that fulfills the requirements, so it would be helpful. The result would of course be a much bigger and complex model than actually needed, but it would indeed be helpful.
 
-What are the strong points of the model, what do you think is really good and why?  
+**What are the strong points of the model, what do you think is really good and why?**
 
 Very good use of attributes and well thought-out conceptual classes.
 
-Do you think a domain expert (for example the Secretary) would understand the model   
+**Do you think a domain expert (for example the Secretary) would understand the model**   
 
 We are sure that he/she would understand it. At first it might seem confusing due to the clutter, but given some time for analysis he/she would understand it.
 
-What are the weaknesses of the model, what do you think should be changed and why?  
+**What are the weaknesses of the model, what do you think should be changed and why?**  
 
 The weakest point is clearly that is is too broad, including functionality that lies out of the scope of this iteration. The solution would be to trim it to include only the necessary pieces.
 
-Do you think the model has passed the grade 2 (passing grade) criteria?  
+**Do you think the model has passed the grade 2 (passing grade) criteria?**
 
 Yes, the model has passed the grade 2 criteria, as it provides a usable domain model for a developer and for a domain expert, even with the requirements for future iterations included in the model.
-
 
 References:
 1. Larman C., Applying UML and Patterns 3rd Ed, 2005, https://aanimesh.files.wordpress.com/2013/09/applying-uml-and-patterns-3rd.pdf
